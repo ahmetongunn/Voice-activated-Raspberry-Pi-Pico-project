@@ -1,0 +1,13 @@
+In this project, a system that can play a specific sound file with a voice command is designed using the Raspberry Pi Pico W microcontroller card, MAX4466 microphone module and MAX98357A amplifier. The aim of the project is to understand basic sound processing and control systems by playing sound files over the speaker according to the voice commands received from the user.
+
+Project Summary:
+Raspberry Pi Pico W detects and processes voice commands from the user with its wireless connection feature. While the MAX4466 microphone module provides the collection of commands, the MAX98357A amplifier converts digital sound signals into analog signals and provides sound output through the speaker. The system stores sound files and plays them with specific commands, enhancing the user experience.
+
+Project Goals:
+• To detect and process voice commands.
+• To create a system that can be controlled remotely with a wireless connection.
+• To play sound files over the speaker in high quality.
+Project Details:
+Raspberry Pi Pico W receives data from the MAX4466 microphone module to detect voice commands. When the commands are processed, the relevant audio file is played from the file stored on the Pico W. The MAX98357A amplifier provides a clear and powerful sound output by transmitting digital signals to the speaker.
+
+IMPORTANT NOTE: This project was made using MicroPython in Thonny.
